@@ -7,7 +7,7 @@ require 'ui/head.php';
 
 <body>
 	<h1>Création</h1>
-	<form>
+	<form method="GET">
 		<label for="firstname">Prénom</label>
 		<input id="firstname" type="text" name="firstname" placeholder="Prénom" required>
 		<label for="lastname">Nom</label>
@@ -21,13 +21,13 @@ require 'ui/head.php';
 		<button type="submit">Créer un compte</button>
 	</form>
 
-	<h1>Connexion</h1>
+	<h2>Connexion</h2>
 	<form>
 		<label for="email">Email</label>
 		<input id="email" type="email" name="login_email" placeholder="Email" required>
 		<label for="password">Mot de passe</label>
 		<input id="password" type="password" name="login_password" placeholder="Mot de passe" required>
-		<button type="submit">Créer un compte</button>
+		<button type="submit">Connexion</button>
 	</form>
 </body>
 
